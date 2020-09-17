@@ -58,9 +58,9 @@ int main (void) {
 
 		// prints answer
 		for(int k = 0; k < (int)best_path.size(); k++){
-            printf("%d ", best_path[k]);
+            		printf("%d ", best_path[k]);
 		}
-        printf("sum:%d\n", best_answer);	
+        	printf("sum:%d\n", best_answer);	
 	}
 	return 0;
 }
